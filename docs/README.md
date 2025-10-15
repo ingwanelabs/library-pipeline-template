@@ -1,3 +1,5 @@
 # Project Documents
 
-- Add your architecture diagrams here
+- Add your architecture diagram here
+- Update the SECURITY document
+- Update the TECHNICAL DEBT document
