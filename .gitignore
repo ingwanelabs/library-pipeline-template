@@ -1,3 +1,11 @@
+# For this project:
+
+# Data files - just regenerate with script
+data/*.csv
+data/*.json
+data/*.xlsx
+data/*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
