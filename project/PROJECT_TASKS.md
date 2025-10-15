@@ -11,7 +11,7 @@
 - [ ] Write unit tests for ingestion
 
 ## 🧪 Testing
-- [ ] 
+- [ ] Run tests
 
 ## ✅ Done
 - [x] Setup GitHub repository
