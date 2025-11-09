@@ -16,9 +16,12 @@ See [docs/architecture/](docs/architecture/) for details.
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
-# Create conda environment
-conda create -n library-pipeline python=3.9
-conda activate library-pipeline
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# Confirm the Python 3 version
+python --version
 
 # Install dependencies
 pip install -r requirements.txt
