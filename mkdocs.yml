@@ -1,6 +1,5 @@
 # Site name
 site_name: SITE NAME
-dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
 nav:
@@ -58,3 +57,4 @@ markdown_extensions:
 
 plugins:
   - search
+
