@@ -28,6 +28,9 @@ pip install -r requirements.txt
 
 # Run tests
 pytest tests/ -v
+
+# Run Python tests with a coverage report
+pytest tests/ -v --cov=src --cov-report=term-missing
 ```
 
 ## Project Structure
