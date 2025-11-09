@@ -1,3 +1,5 @@
-# Welcome to your new site
+# Project Documents
 
-Content is coming soon!
+- Add your architecture diagram here
+- Update the SECURITY document
+- Update the TECHNICAL DEBT document
