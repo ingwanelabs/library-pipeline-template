@@ -38,3 +38,8 @@ exclude = '''
   | dist
 )/
 '''
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+extend-exclude = ["venv", ".venv", "build", "dist"]
