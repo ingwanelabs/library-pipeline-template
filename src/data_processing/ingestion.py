@@ -10,6 +10,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 def load_csv(filepath):
     """Load CSV file with error handling.
     
@@ -24,6 +25,7 @@ def load_csv(filepath):
     # TODO: Implement this function
     pass
 
+
 def load_json(filepath):
     """Load JSON file and flatten structure.
     
@@ -37,4 +39,3 @@ def load_json(filepath):
     """
     # TODO: Implement this function
     pass
-  
