@@ -1,4 +1,5 @@
 # Library Data Pipeline
+![CI Pipeline Badge](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
 
 ## Project Overview
 [TODO: Describe the library's data quality problem]
@@ -10,7 +11,7 @@ See [docs/architecture/](docs/architecture/) for details.
 
 ## Setup
 
-## Git
+### Git
 
 At a prompt copy and paste the following 2 lines:
 
@@ -18,8 +19,6 @@ At a prompt copy and paste the following 2 lines:
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
-
-*Replace the template text with your details.*
 
 ### Local Development
 ```bash
@@ -40,8 +39,8 @@ pip install -r requirements.txt
 # Run tests
 pytest tests/ -v
 
-# Run Python tests with a coverage report
-pytest tests/ -v --cov=src --cov-report=term-missing
+# Run Python tests with a HTML coverage report
+pytest tests/ -v --cov=src --cov-report=html
 ```
 
 ## Project Structure
