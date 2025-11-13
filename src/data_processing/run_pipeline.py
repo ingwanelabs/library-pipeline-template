@@ -11,6 +11,9 @@ This script orchestrates the complete data pipeline:
 Author: [Your Name]
 Date: [Today's Date]
 Module: DE5 Module 5 - Product Development
+
+Run this from the command line as follows:
+> python -m src.data_processing.run_pipeline
 """
 
 import re
