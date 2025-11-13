@@ -296,6 +296,6 @@ def run_pipeline():
 
 if __name__ == "__main__":
     """
-    This runs when you execute: python src/data_processing/run_pipeline.py
+    This runs when you execute: python -m src.data_processing.run_pipeline
     """
     results = run_pipeline()
