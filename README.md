@@ -1,6 +1,6 @@
 # Library Data Pipeline
 
-![Teaching](https://img.shields.io/badge/module-DE5M6-blue)
+![Teaching](https://img.shields.io/badge/module-DE5M5-blue)
 ![Python Version](https://img.shields.io/badge/python-3.9--3.12-blue.svg)
 
 ![Open Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO)
@@ -50,6 +50,12 @@ pytest tests/ -v
 
 # Run Python tests with a HTML coverage report
 pytest tests/ -v --cov=src --cov-report=html
+
+# To push new code to GitHub
+git status
+git add .
+git commit -m "New changes"
+git push
 ```
 
 ## Project Structure
